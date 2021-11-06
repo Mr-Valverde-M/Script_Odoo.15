@@ -9,6 +9,13 @@ sudo apt-get upgrade
 # Con este comando se instala PIP de Python3
 sudo apt-get install python3-pip -y
 
+#Instalar dependencias de Odoo
+sudo apt install - y git python3-pip && build-essential && wget && python3-dev && python3-venv 
+sudo apt install - y python3-wheel && libfreetype6-dev && libxml2-dev && libzip-dev && libldap2-dev && libsasl2-dev
+sudo apt install - y python3-setuptools && node-less && libjpeg-dev && zlib1g-dev && libpq-dev
+sudo apt install - y libxslt1-dev && libldap2-dev && libtiff5-dev && libjpeg8-dev && libopenjp2-7-dev
+sudo apt install - y liblcms2-dev && libwebp-dev && libharfbuzz-dev && libfribidi-dev && libxcb1-dev
+
 # Con este comando se descarga el repositorio de wkhtmltopdf para Ubuntu 20.04
 wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.focal_amd64.deb
 
